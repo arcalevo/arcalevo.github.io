@@ -1,0 +1,54 @@
+body{
+    background-color: #dfdbdb;
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.menu li{
+    list-style: none;
+    margin: 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    color: #242424;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.post{
+    background-color: #f4eded;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin: 15px;
+}
+
+.post h3{
+    color: #610d04dd;
+}
+
+.post p{
+    text-align: justify;
+}
